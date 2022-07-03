@@ -12,3 +12,11 @@ The totalData_{dataset} contains the SMILES string format of a set of drugs used
 The Train and test folder for drug-drug interactions are also present for each of these datasets, just upload to working directory and run code to do the training and testing results.
 
 
+main.py
+Main script used to generate latent representation of each drug and train classifier module to predict drug-drug interactions.
+
+Adjacency_vae.py
+Helper functions for encoder-decoder module; which contains class to extract information from SMILES string, followed by encoder-decoder architecture and loss function helper functions.
+
+classifier.py
+Helper class to extract training and testing data into latent representation, followed by helper function containing Neural network architecture for classification task.
